@@ -3,7 +3,7 @@
   <component name="CompilerConfiguration">
     <annotationProcessing>
       <profile default="true" name="Default" enabled="true" />
-      <profile name="Annotation profile for notificacao" enabled="true">
+      <profile name="Annotation profile for processador" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
@@ -12,6 +12,7 @@
         </processorPath>
         <module name="notificacao" />
         <module name="pedidos-api" />
+        <module name="processador" />
         <module name="pedidos-api-microsservicos" />
       </profile>
     </annotationProcessing>
@@ -21,6 +22,7 @@
       <module name="notificacao" options="-parameters" />
       <module name="pedidos-api" options="-parameters" />
       <module name="pedidos-api-microsservicos" options="-parameters" />
+      <module name="processador" options="-parameters" />
     </option>
   </component>
 </project>
